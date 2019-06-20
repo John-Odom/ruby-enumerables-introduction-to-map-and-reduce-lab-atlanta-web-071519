@@ -57,7 +57,7 @@ def reduce_to_all_true(source_array)
   if j == source_array.length
     return true
   else
-    return truthy value
+    return false
   end
 end
 
