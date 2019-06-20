@@ -61,6 +61,33 @@ def reduce_to_all_true(source_array)
   end
 end
 
+def reduce_to_any_true(source_array)
+  i=0
+  j=0
+  while i < source_array
+    if source_array[i]
+      j+=1  
+    end  
+    i+=1
+  end
+  if j>0
+    return true
+  else
+    return false
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
